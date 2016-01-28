@@ -1,15 +1,15 @@
 //
-//  video_playerTests.swift
-//  video_playerTests
+//  downloadWebContentTests.swift
+//  downloadWebContentTests
 //
-//  Created by Rodriguez, Vanessa on 1/26/16.
+//  Created by Rodriguez, Vanessa on 1/27/16.
 //  Copyright © 2016 Rodriguez, Vanessa. All rights reserved.
 //
 
 import XCTest
-@testable import video_player
+@testable import downloadWebContent
 
-class video_playerTests: XCTestCase {
+class downloadWebContentTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -22,10 +22,6 @@ class video_playerTests: XCTestCase {
     }
     
     func testExample() {
-        let adderDummy = Adder()
-        let output = adderDummy.add2(2)
-        XCTAssertEqual(output, 4, "Fail: Output should equal 3")
-    
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
@@ -36,6 +32,5 @@ class video_playerTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
     
 }
